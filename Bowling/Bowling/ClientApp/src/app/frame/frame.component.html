@@ -1,0 +1,18 @@
+<div class="row">{{frame.frameNumber}}</div>
+<div class="row">
+  <div class="col-sm-1" *ngIf="!frame.isLastFrame"></div>
+  <div class="col-sm-1 border">
+    <span class="small-text">{{frame.scores[0]}}</span>
+  </div>
+  <div class="col-sm-1 border">
+    <span class="small-text">{{frame.scores[1]}}</span>
+  </div>
+  <div class="col-sm-1 border" *ngIf="frame.isLastFrame">
+    <span class="small-text">{{frame.scores[2]}}</span>
+  </div>
+</div>
+<div class="row frame-score">
+  <div class="col-sm-1">
+    <h2>{{frame.overallScore}}</h2>
+</div>
+</div>
