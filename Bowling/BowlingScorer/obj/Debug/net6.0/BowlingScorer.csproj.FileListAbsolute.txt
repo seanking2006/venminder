@@ -1,0 +1,12 @@
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.csproj.AssemblyReference.cache
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.AssemblyInfoInputs.cache
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.AssemblyInfo.cs
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.csproj.CoreCompileInputs.cache
+C:\venminder\Bowling\BowlingScorer\bin\Debug\net6.0\BowlingScorer.deps.json
+C:\venminder\Bowling\BowlingScorer\bin\Debug\net6.0\BowlingScorer.dll
+C:\venminder\Bowling\BowlingScorer\bin\Debug\net6.0\BowlingScorer.pdb
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.dll
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\refint\BowlingScorer.dll
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\BowlingScorer.pdb
+C:\venminder\Bowling\BowlingScorer\obj\Debug\net6.0\ref\BowlingScorer.dll

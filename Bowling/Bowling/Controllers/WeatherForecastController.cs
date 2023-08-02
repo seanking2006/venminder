@@ -29,5 +29,11 @@ namespace Bowling.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost]
+        public string Post(string info)
+        {
+            return info;
+        }
     }
 }
