@@ -33,10 +33,24 @@ namespace Bowling.Controllers
                 var gameStateFrame = info.Frames[i];
                 card.Frames[i] = new ScoreCardFrame();
                 card.Frames[i].FrameNumber = gameStateFrame.FrameNumber;
-                card.Frames[i].Score = gameStateFrame.Score;
+                if (i < gameStateFrame.FrameNumber)
+                {
+                    card.Frames[i].Score = gameStateFrame.Score.ToString();
+                }
+                else
+                {
+                    card.Frames[i].Score = "-";
+                }
                 for (int j = 0; j < gameStateFrame.FrameScores.Length; j++)
                 {
-                    card.Frames[i].FrameScores[j] = gameStateFrame.FrameScores[j];
+                    if (j < gameStateFrame.ScoreIndex)
+                    {
+                        card.Frames[i].FrameScores[j] = gameStateFrame.FrameScores[j].ToString();
+                    }
+                    else
+                    {
+                        card.Frames[i].FrameScores[j] = "-";
+                    }
                 }
             }
             return card;

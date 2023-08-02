@@ -1,5 +1,5 @@
 export interface ScoreCardFrame {
-  score: number;
+  score: string;
   frameNumber: number;
-  frameScores: number[];
+  frameScores: string[];
 }

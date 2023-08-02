@@ -1,7 +1,7 @@
 import { ScoreCardFrame } from "./score-card-frame";
 
 export interface ScoreCard {
-  score: number;
+  score: string;
   gameCompleted: boolean;
   bowlWasValid: boolean;
   errors: string[];

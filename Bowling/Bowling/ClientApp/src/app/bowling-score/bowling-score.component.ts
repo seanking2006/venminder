@@ -19,20 +19,20 @@ export class BowlingScoreComponent implements OnInit {
   gameFrames: ScoreCardFrame[] = [];
 
   frames: FrameInfo[] = [];
-  frameData: FrameInfo = new FrameInfo();
-  frameData2: FrameInfo = new FrameInfo();
+  //frameData: FrameInfo = new FrameInfo();
+  //frameData2: FrameInfo = new FrameInfo();
 
   constructor(private http: HttpClient,
     private bowlingService: BowlingService) {
 
   }
   ngOnInit(): void {
-    this.frameData.scores = [1, 2, 0];
-    this.frameData.frameNumber = 1;
+    //this.frameData.scores = [1, 2, 0];
+    //this.frameData.frameNumber = 1;
 
-    this.frameData2.scores = [5, 1, 10];
-    this.frameData2.frameNumber = 10;
-    this.frameData2.isLastFrame = true;
+    //this.frameData2.scores = [5, 1, 10];
+    //this.frameData2.frameNumber = 10;
+    //this.frameData2.isLastFrame = true;
 
     this.clearBoard();
 
@@ -146,53 +146,53 @@ export class BowlingScoreComponent implements OnInit {
 
     let frame: FrameInfo = new FrameInfo();
     frame.frameNumber = 1;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     frame.isLastFrame = false;
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 2;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 3;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 4;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 5;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 6;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 7;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 8;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 9;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];
     this.frames.push(frame);
 
     frame = new FrameInfo();
     frame.frameNumber = 10;
-    frame.scores = [0, 0];
+    frame.scores = ["-", "-"];  
     frame.isLastFrame = true;
     frame.overallScore = "";
     this.frames.push(frame);

@@ -8,9 +8,9 @@ namespace BowlingScorer
 {
     public class ScoreCardFrame
     {
-        public int Score { get; set; }
+        public string Score { get; set; }
         public int FrameNumber { get; set; }
 
-        public int[] FrameScores { get; set; } = new int[3];
+        public string[] FrameScores { get; set; } = new string[3];
     }
 }
